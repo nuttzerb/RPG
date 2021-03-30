@@ -24,20 +24,21 @@ public class PlayerLocomotion : MonoBehaviour
     }
     private void HandleMovement()
     {
-        moveDirection = cameraObject.forward * inputManager.vertical;
-        moveDirection = moveDirection + cameraObject.right * inputManager.horizonal;
+        moveDirection = cameraObject.forward * inputManager.verticalInput;
+        moveDirection = moveDirection + cameraObject.right * inputManager.horizonalInput;
         moveDirection.Normalize();
         moveDirection.y = 0;
         moveDirection = moveDirection * movementSpeed;
         Vector3 movementVelocity = moveDirection;
         playerRigidbody.velocity = movementVelocity;
+  
     }
     
     private void HandleRotation()
     {
         Vector3 targetDirection = Vector3.zero;
-        targetDirection = cameraObject.forward * inputManager.vertical;
-        targetDirection = targetDirection + cameraObject.right * inputManager.horizonal;
+        targetDirection = cameraObject.forward * inputManager.verticalInput;
+        targetDirection = targetDirection + cameraObject.right * inputManager.horizonalInput;
         targetDirection.Normalize();
         targetDirection.y = 0;
 
