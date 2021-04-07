@@ -80,25 +80,69 @@
                 },
                 {
                     "name": "",
-                    "id": "cad05a36-6092-4629-a2f2-803cb8b0d10d",
-                    "path": "<Gamepad>/rightStick",
+                    "id": "e426a09a-80f3-4b15-8163-48824497553f",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
-                    "processors": "StickDeadzone",
+                    "processors": "",
                     "groups": "",
                     "action": "Camera",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "0559fdfb-7c4e-451d-851f-2cbe15387ce4",
-                    "path": "<Mouse>/delta",
+                    "name": "Right Stick",
+                    "id": "7c1adc95-486d-4798-a8ee-cfae4168a018",
+                    "path": "2DVector(mode=2)",
                     "interactions": "",
-                    "processors": "NormalizeVector2",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "b9378ef0-d1a7-472e-926e-470743b602c2",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "",
                     "groups": "",
                     "action": "Camera",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "63a6affc-8f1e-4119-95e6-c4a7a74fd14e",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "c57cecc9-3176-474e-a3a1-f7517bf27393",
+                    "path": "<Gamepad>/rightStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "24247938-c8c9-4783-8881-95ebb50c82e8",
+                    "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
